@@ -1,0 +1,174 @@
+body{
+    margin: 0; /* لإزالة المسافات الافتراضية */
+    height: 100vh; /* يضبط ارتفاع الصفحة بالكامل */
+    background-image: url('home/background-home-desktop.jpg'); /* استبدل بالمسار الصحيح للصورة */
+    background-size: cover; /* لتغطية الصفحة بالكامل */
+    background-repeat: no-repeat; /* لمنع التكرار */
+    background-position: center; /* لضمان تمركز الصورة */
+    
+}
+.background{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.container{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.041));
+     backdrop-filter: blur(10px); /* تأثير التمويه */    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    position:absolute;
+    top: 27px;
+    right: 0px;
+    color:white;
+    line-height: 70px;
+    width:55%;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    justify-content:space-around;
+}
+.stiiky{
+    position: sticky;
+    top: 70px;
+}
+.hghzvi{
+    position: absolute;
+    top:-260px;
+    left: 35px;
+}
+.so{
+    position: absolute;
+    bottom: 460px;
+    left: 120px;
+    font-size:23px;
+    color: rgba(255, 255, 255, 0.596);
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.space{
+    position: absolute;
+    left: 110px;
+    bottom:260px;
+    font-size: 100px;
+    color: white; 
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.alot{
+    position: absolute;
+    bottom: 220px;
+    left: 110px;
+    width:338px;
+    line-height:22px;
+    letter-spacing: .5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(255, 255, 255, 0.596);
+}
+
+.hh{
+    width: calc(90%/4);
+    text-align: center;
+    text-decoration: none;
+    position: sticky;
+    cursor: pointer;
+    transition-duration: 4s;
+    border-bottom-width:1px ;
+}
+.hh .h {
+    margin-left: 4px;
+}
+.h{
+color: hsla(0, 0%, 100%, 0.788);
+}
+.stiky{
+    position: sticky;
+    top: 0pc;
+    left: 120px;
+}
+hr{
+    position: absolute;
+    width: 512px;
+    top: -245px;
+    left: 120px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.493);
+    height:1px;
+}
+.explore{
+    margin: 860px;
+    margin-top: 300px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    line-height: 200px;
+    font-size: 30px;
+    justify-content: center;
+}
+.hh:hover{
+    border-right:1px ;
+    border-left: 1px;
+    border-top:1px;
+    border-bottom:1px ;
+    border-top-left-radius:500px ;
+    border-top-right-radius:500px ;
+    border-bottom-right-radius:500px ;
+    border-bottom-left-radius:500px;
+    border-style:solid;
+    border-color:#eee ;
+}
+.hh:hover .HOME{
+    color: black;
+    font-size: 20px;
+}
+.hh:hover .DESTINATION{
+    color: black;
+    font-size: 20px;
+}
+.hh:hover .CREW{
+    color: black;
+    font-size: 20px;
+}
+.hh:hover .TECHNOLOGY{
+    color: black;
+    font-size: 20px;
+}
+.HOME{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.75);
+    transition-duration:.3s ;
+}
+.HOME:hover{
+    font-size: 20px;
+    color: black;
+}
+.DESTINATION{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.75);
+    transition-duration:.3s ;
+}
+.DESTINATION:hover{
+    font-size: 20px;
+    color: black;
+}
+.CREW{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.75);
+    transition-duration:.3s ;
+}
+.CREW:hover{
+    font-size: 20px;
+    color: black;
+}
+.TECHNOLOGY{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.75);
+    transition-duration:.3s ;
+}
+.TECHNOLOGY:hover{
+    font-size: 20px;
+    color: black;
+}

@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    /* لإزالة المسافات الافتراضية */
+    height: 100vh;
+    /* يضبط ارتفاع الصفحة بالكامل */
+    background-image: url('destination/background-destination-desktop.jpg');
+    /* استبدل بالمسار الصحيح للصورة */
+    background-size: cover;
+    /* لتغطية الصفحة بالكامل */
+    background-repeat: no-repeat;
+    /* لمنع التكرار */
+    background-position: center;
+    /* لضمان تمركز الصورة */
+
+}
+
+.parent_background {
+    background-image: url("assets/destination/background-destination-desktop.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hghtjjhpdi {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+m {
+    color: rgba(255, 255, 255, 0.521);
+}
+
+.stiiky {
+    position: sticky;
+    top: 70px;
+}
+
+.hghzvi {
+    position: absolute;
+    top: -20px;
+    left: 35px;
+}
+
+.hr1 {
+    position: fixed;
+    width: 42%;
+    top: 65px;
+    left: 120px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.493);
+    height: 1px;
+}
+
+.container {
+    background: linear-gradient(to left, rgba(255, 255, 255, 5%), rgba(255, 255, 255, 5%));
+    backdrop-filter: blur(2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 45%;
+    top: -31px;
+    color: white;
+    line-height: 70px;
+    width: 55%;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.hh {
+    width: calc(90%/4);
+    text-align: center;
+    text-decoration: none;
+    position: sticky;
+    cursor: pointer;
+    transition-duration: 3s;
+    border-bottom-width: 1px;
+}
+
+.hh:hover {
+    border-right: 1px;
+    border-left: 1px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-style: solid;
+    border-color: #eee;
+}
+
+.hh:hover .HOME {
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.hh:hover .DESTINATION {
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.hh:hover .CREW {
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.hh:hover .TECHNOLOGY {
+    color: black;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.HOME {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition-duration: .3s;
+}
+
+.HOME:hover {
+    font-size: 20px;
+    color: black;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+.DESTINATION {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition-duration: .3s;
+}
+
+.DESTINATION:hover {
+    font-size: 20px;
+    color: black;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.CREW {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition-duration: .3s;
+}
+
+.CREW:hover {
+    font-size: 20px;
+    color: black;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.TECHNOLOGY {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+    transition-duration: .3s;
+}
+
+.TECHNOLOGY:hover {
+    font-size: 20px;
+    color: black;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.mars {
+    position: absolute;
+    top: 40px;
+    left: -560px;
+    background-image: url("destination/image-mars.webp");
+    width: 390px;
+    height: 390px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s, 0.5s;
+}
+
+.marss {
+    position: absolute;
+    top: 32px;
+    font-size: 90px;
+    color: #eee;
+    letter-spacing: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.mars_title {
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    color: #fffefeb2;
+    letter-spacing: .5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hr2 {
+    position: absolute;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.493);
+    height: .2px;
+    width: 400px;
+    top: 566px;
+    left: 730px;
+}
+
+.down_mars {
+    position: absolute;
+    top: 306px;
+    color: #eee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.EST {
+    position: absolute;
+    right: -338px;
+    top: -148px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.AFG {
+    position: absolute;
+    top: -148px;
+    width: 200px;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.MIL {
+    position: absolute;
+    font-size: 23px;
+    top: 312px;
+    width: 200px;
+    transition: opacity 0.3s ease;
+    /* السلاسة */
+}
+
+.MONTHS {
+    position: absolute;
+    top: -143px;
+    left: 230px;
+    width: 220px;
+    font-size: 23px;
+}
+
+.choose {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: .8px;
+    width: 260px;
+    top: 280px;
+    left: 730px;
+    color: rgba(255, 255, 255, 0.733);
+    -webkit-tap-highlight-color: transparent;
+    /* لأجهزة iOS وأندرويد */
+    outline: none;
+    /* إزالة الحدود عند التركيز */
+    transition-duration: .5s;
+}
+
+.choose_moon,
+.choose_Eroupa:hover,
+.choose_Titan:hover,
+.choose_mars {
+    transition-duration: .5s;
+    text-align: center;
+}
+
+.choose_moon:hover {
+    color: white;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255),
+        0px 0px 40px rgb(255, 255, 255),
+        0px 0px 80px rgb(255, 255, 255),
+        0px 0px 160px rgb(255, 255, 255);
+}
+
+.choose_mars:hover {
+    color: white;
+    text-shadow: 0px 0px 20px rgb(255, 136, 0),
+        0px 0px 40px rgb(255, 136, 0),
+        0px 0px 80px rgb(255, 136, 0),
+        0px 0px 160px rgb(255, 136, 0);
+}
+
+.choose_Eroupa:hover {
+    color: white;
+    text-shadow: 0px 0px 20px hsl(19, 93%, 54%),
+        0px 0px 40px hsl(19, 93%, 54%),
+        0px 0px 80px hsl(19, 93%, 54%),
+        0px 0px 160px hsl(19, 93%, 54%);
+
+}
+
+.choose_Titan:hover {
+    color: white;
+    text-shadow: 0px 0px 20px yellow,
+        0px 0px 40px yellow,
+        0px 0px 80px yellow,
+        0px 0px 160px yellow;
+}
+
+.choose_moon:hover~.mars {
+    background-image: url("destination/image-moon.png");
+    /* إزالة صورة الخلفية */
+
+}
+
+.choose_Eroupa:hover~.mars {
+    background-image: url("destination/image-europa.webp");
+    /* إزالة صورة الخلفية */
+}
+
+.choose_Titan:hover~.mars {
+    background-image: url("destination/image-titan.webp");
+    /* إزالة صورة الخلفية */
+}
+
+.moon_MOON {
+    opacity: 0;
+    /* بدءًا تكون مخفية */
+    position: absolute;
+    top: 32px;
+    font-size: 90px;
+    color: #eee;
+    letter-spacing: 5px;
+}
+
+.marss {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.moon_MOON {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.choose_moon:hover~.moon_MOON {
+    opacity: 1;
+}
+
+.choose_moon:hover~.marss {
+    opacity: 0;
+}
+
+.MIL_MOON {
+    opacity: 0;
+    position: absolute;
+    top: 336px;
+    transition: opacity 0.5s ease;
+    /* لتفعيل السلاسة */
+    font-size: 23px;
+    width: 200px;
+}
+
+.choose_moon:hover ~.MIL {
+    opacity: 0;
+}
+
+.choose_moon:hover ~.MIL_MOON {
+    opacity: 1;
+    /* تخفي العنصر */
+}
+
+.Eroupa{
+    position: absolute;
+    opacity: 0;
+    top: 32px;
+    font-size: 90px;
+    color: #eee;
+    letter-spacing: 2px;
+    transition: all 0.4s ease-in-out;
+}
+.choose_Eroupa:hover ~ .marss{
+    opacity: 0;
+}
+.choose_Eroupa:hover ~ .Eroupa{
+    opacity: 1;
+}
